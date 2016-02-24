@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+    <!-- Announcements JOB // Commented to avoid always running it on our test appEngine Instance
+    <cron>
+        <url>/crons/set_announcement</url>
+        <description>Calculate and set the announcements of conference to be completed.</description>
+        <schedule>every 1 hours</schedule>
+    </cron>
+    -->
+</cronentries>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="true">
+    <datastore-index kind="Conference" ancestor="true">
+        <property name="city " direction="asc" />
+        <property name="name " direction="asc" />
+    </datastore-index>
+    <datastore-index kind="Session" ancestor="true">
+        <property name="name" direction="asc" />
+        <property name="typeOfSession" />
+    </datastore-index>
+    <datastore-index kind="Session" ancestor="false" source="manual">
+        <property name="speaker" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+</datastore-indexes>
